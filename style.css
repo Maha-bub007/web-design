@@ -1,0 +1,389 @@
+body{
+    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+   
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ h1{
+font-size: 50px;
+
+color: #222;
+}
+h2{
+    font-size:46px ;
+    color: #222;
+}
+
+h4{
+font-size: 20px;
+color: #222; 
+}
+
+h6{
+font-weight: 700px;
+font-size: 12px;
+}
+p{
+font-size: 16px;
+color: #455b52;
+margin: 15px 0 20px 0;
+} 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 80px;
+    background-color: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.nav ul li{
+    padding: 0 15px;
+    list-style-type: none;
+    position: relative;
+}
+.nav ul li a{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.nav ul li a:hover,
+.nav ul li a.active{
+    color: #186F65;
+}
+.nav li a :hover::after{
+    content: "";
+    width: 30%;
+    height: 4px;
+    border-color:#186F65 ;
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+}
+#hero{
+   
+padding: 0px;
+background-color: #E3E6F3;
+padding: 0px 80px;
+height: 80vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+background-image: url("back.jpeg");
+background-position: top 2% left 30%;
+background-repeat: no-repeat;
+}
+#hero h4{
+    margin-bottom: 10px;
+}
+#hero h1{
+    color: #088178;
+    margin-bottom: 10px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+#hero h2{
+    
+    margin-bottom: 10px;
+}
+#hero button{
+    height: 48px;
+    background-color: #87C4FF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+    transition: 0.3s ease;
+}
+#hero button:hover{
+background-color: #F7EFE5;
+color: #87C4FF;
+}
+#cards{
+    width: 100%;
+    height: 400px;
+}
+#cards h1{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-bottom: 17px;
+}
+#cards p{
+    margin-top: 10px;
+}
+.fetere-box{
+    margin-top: 30px;
+    padding: 22px 80px;
+}
+.free{
+    width: 120px;
+    height: 100px;
+}
+.free-ship{
+   
+    height: 160px;
+    width: 140px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    text-align: center;
+}
+.free-ship button{
+    margin-top: 12px;
+    padding: 7px;
+    border: none;
+   
+    background-color: #8DDFCB;
+    border-radius: 4px;
+    transition: 0.3s ease;
+
+}
+.free-ship button:hover{
+   background-color: #A7FFE4;
+}
+.online-oder{
+    height: 160px;
+    width: 140px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    text-align: center;
+}
+.online-oder button{
+    margin-top: 12px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    background-color: #A2C579;
+}
+.online-oder button:hover{
+    background-color: #D2DE32;
+
+}
+.save-moeny{
+    height: 160px;
+    width: 140px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    text-align: center;
+}
+.save-moeny button{
+    margin-top: 12px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+
+    background-color: #818FB4;
+
+}
+.save-moeny button:hover{
+    background-color: #435585;
+}
+.happy{
+    height: 160px;
+    width: 140px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    text-align: center;
+}
+.happy button{
+    margin-top: 12px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    background-color: #D0A2F7;
+}
+.happy button:hover{
+    background-color: #DCBFFF;
+}
+.support{
+    height: 160px;
+    width: 140px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+    text-align: center;
+}
+.support button{
+    margin-top: 12px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    background-color: #F5E8C7;
+
+}
+.support button:hover{
+    background-color: #FFEED9;
+}
+.fetere-box{
+    display: flex;
+    justify-content: space-around;
+}
+#cards h1{
+    text-align: center;
+}
+#cards p{
+    text-align: center;
+    margin-top: -14px;
+}
+.pro1{
+    width: 22%;
+    height: 425px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 7px rgb(209, 205, 205);
+    padding: 5px;
+    margin: 10px 10px;
+}
+.pro1:hover{
+    box-shadow: 2px 2px 7px rgb(95, 94, 94);
+}
+#chobi{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+.des h5{
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-left: 9px;
+    font-size: 1.4rem;
+    color: #BE3144;
+    
+   
+}
+.des h4{
+    color: #088178;
+    font-weight: bold;
+    margin: 8px 0px;
+    margin-left: 9px;
+}
+#products{
+    width: 100%;
+    min-height: 70vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.rate i{
+   color: #FFC436;
+   
+}
+.rate{
+    margin-left: 9px;
+}
+.des{
+    background-color: #001524;
+    border-radius: 6px;
+}
+.btn{
+    width: 100%;
+    background-color: #088178;
+   color: white;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+.f-des{
+    width: 100%;
+
+}
+.btn:hover{
+    background-color: #A7D397;
+    color: white;
+}
+#products h1,p{
+    text-align: center;
+}
+#pra{
+font-family: sans-serif;
+color: #088178;
+font-weight: 800;
+font-size: 1rem;
+}
+#head{
+    font-family: sans-serif;
+    color: #088178;
+    font-weight: 800;
+    text-shadow: 3px 7px 12px gray;
+    
+}
+.foot{
+    color: #a2f0e7;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    padding: 4px;
+    margin-top: 8px;
+    margin-left: 13px;
+}
+.foot a:hover{
+    color: white;
+    border: 1px solid white;
+}
+.icons{
+    display: flex;
+    justify-content: start;
+    padding: 0px 70px;
+    margin: 0px 120px;
+}
+#footer{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.back-stage{
+    background-color: #001524;
+    height: 120px;
+}
+.fotter{
+    display: flex;
+    justify-content: right;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+.fotter a{
+    margin: 0px 7px;
+    margin-right: 15px;
+}
+.copy{
+    text-align: center;
+  color: white;
+  margin-top: 15px;
+}
+
+
+
+
